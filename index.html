@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Maarten Breddels</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/maarten.png" alt="">
         </span>
@@ -49,6 +49,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
@@ -58,6 +59,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
+        -->
         </ul>
       </div>
     </nav>
@@ -71,10 +73,10 @@
             <!--3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·-->
             <a href="mailto:maartenbreddels@gmail.com">maartenbreddels@gmail.com</a>
           </div>
-          <p class="mb-5">I am a freelance developer / data scientist working working mostly with Python, C++ and Javascript in the Jupyter ecosystem. My expertise ranges from fast numerical computation, API design, to 3d visualization.</p>
+          <p class="mb-5">I am a freelance developer / consultant / data scientist working working mostly with Python, C++ and Javascript in the Jupyter ecosystem. My expertise ranges from fast numerical computation, API design, to 3d visualization. I have a Bachelor in ICT, a Master and PhD in Astronomy and like to code and solve problems.</p>
 
           <a href="mailto:maartenbreddels@gmail.com">
-          Current status: quite busy, but feel free to contact me if you want to hire me.</a>
+          Feel free to contact me if you want to hire me.</a>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://twitter.com/maartenbreddels">
@@ -104,15 +106,22 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0"><a href='http://vaex.io'>vaex</a></h3>
-              <div class="subheading mb-3">Out of core dataframe + visualization</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <div class="subheading mb-3">Lazy out of core dataframe + fast binning + visualization</div>
+              <p>Vaex provides a dataframe where columns can be lazy expressions, suitable for large datasets, 
+              and provides fast aggregation of data on N-dimensional grids. Visualization is built on top of the
+              fast binning algorithms to provide interactive visualization.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bP-JBbjwLM8" frameborder="0" allowfullscreen></iframe>
+
+            </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary"></span>
@@ -123,7 +132,11 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0"><a href='https://ipyvolume.readthedocs.io/en/latest/'>ipyvolume</a></h3>
               <div class="subheading mb-3">3d scientific plotting</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <p>ipyvolume is a 3d plotting for Python in the Jupyter notebook based on IPython widgets using WebGL.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nZ3HQpSXn2U?start=945" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary"></span>
@@ -133,8 +146,8 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0"><a href='https://github.com/QuantStack/ipysheet'>ipysheet</a></h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <div class="subheading mb-3">Spreadsheets for the Jupyter notebook</div>
+              <p></p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2010 - December 2011</span>
@@ -151,29 +164,27 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 class="mb-0">University of Groningen, the Netherlands</h3>
+              <div class="subheading mb-3">Astronomy Bachelor and Master of Science + PhD</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <span class="text-primary">2003 - 2013</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">Hanzehogeschool Groningen, the Netherlands</h3>
+              <div class="subheading mb-3">Information Technology Bachelor</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+              <span class="text-primary">1999 - 2003</span>
             </div>
           </div>
 
         </div>
       </section>
+      <!--
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
@@ -276,6 +287,7 @@
           </ul>
         </div>
       </section>
+      -->
 
     </div>
 
